@@ -1,17 +1,16 @@
 import { HTMLAttributes } from "react";
-import { DEFAULT_MAX_VERSION } from "tls";
 import { NumerosSorteadosStyle } from "./style";
 
 type Props = HTMLAttributes<HTMLElement> & {
-  listaDezenas: string [];
-}
+  listaDezenas: string[];
+};
 
-export function NumerosSorteados({listaDezenas}:Props) {
+export function NumerosSorteados({ listaDezenas }: Props) {
   return (
     <NumerosSorteadosStyle>
-      {listaDezenas?.map(dezena => (
+      {listaDezenas?.map((dezena) => (
         <div className="size-x circle"> {dezena} </div>
       ))}
     </NumerosSorteadosStyle>
-  )
+  );
 }

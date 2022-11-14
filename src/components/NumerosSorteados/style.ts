@@ -11,8 +11,8 @@ export const NumerosSorteadosStyle = styled.div`
   }
 
   .circle {
-    background: #209869;
-    color: #FFFFFF;
+    background:  ${props => props.theme.colors.backgroundCirculo};;
+    color:  ${props => props.theme.colors.colorDezena};
     border-radius: 50%;  
     align-items: center;
     display: inline-flex;

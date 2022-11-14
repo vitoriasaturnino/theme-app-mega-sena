@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const TitleStyle = styled.div`
   font-family: 'Tahoma';
   font-size: 35px;
-  color: #209869;
+  color:  ${props => props.theme.colors.backgroundCirculo};
   font-weight: bold;
 
   h2{
-    color: #0066b3;
+    color:  ${props => props.theme.colors.bold};
   }
 `;

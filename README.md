@@ -1,8 +1,8 @@
-# Mega-Sena
+# Theme for Mega-Sena
 
 ## About
 
-#### Web application that displays data from a random bet obtained through the Caixa Economica Federal API
+#### Application version [app-web-mega-sena](https://github.com/vitoriasaturnino/app-web-mega-sena) with theme selected according to the first ten of each draw.
 
 [api-mega-sena.webm](https://user-images.githubusercontent.com/68754092/199233516-152240f9-537e-49d9-9a23-f7c21395eea0.webm)
 
@@ -13,8 +13,8 @@
 Clone the repository:
 
 ```
-$ git clone https://github.com/vitoriasaturnino/app-web-mega-sena.git
-$ cd app-web-mega-sena
+$ git clone https://github.com/vitoriasaturnino/theme-app-mega-sena
+$ cd theme-app-mega-sena
 ```
 
 Install dependencies:
